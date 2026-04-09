@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ===========================
     if (document.querySelector('.typed-text')) {
         new Typed('.typed-text', {
-            strings: ['Web Developer', 'Full-Stack Developer', 'AI Tool Creator', 'POS System Expert'],
+            strings: ['Web Developer', 'Full-Stack Developer', 'AI Tool Creator'],
             typeSpeed: 50,
             backSpeed: 25,
             backDelay: 2000,
