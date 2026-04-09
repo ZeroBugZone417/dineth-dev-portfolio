@@ -5,289 +5,303 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dineth Sudarshana | Web Developer & AI Tool Creator</title>
-    <meta name="description" content="Portfolio of Dineth Sudarshana, a modern Web Developer and AI Tool Creator.">
-    <meta name="keywords"
-        content="Dineth Sudarshana, Web Developer Sri Lanka, Portfolio, POS System Developer, JavaScript Developer">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
-        rel="stylesheet">
+    <meta name="description" content="Portfolio of Dineth Sudarshana — Full-Stack Web Developer & AI Tool Creator based in Sri Lanka.">
+    <meta name="keywords" content="Dineth Sudarshana, Web Developer Sri Lanka, Portfolio, POS System, JavaScript Developer">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <a href="#" class="logo">Dineth<span>.dev</span></a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero section">
-            <div class="hero-content reveal">
-                <h2 class="greeting">Hello, I'm</h2>
-                <h1 class="name">Dineth Sudarshana</h1>
-                <h3 class="title">Web Developer <span class="highlight">&</span> AI Tool Creator</h3>
-                <p class="hero-desc">I build high-performance web applications, intuitive POS systems, and AI-powered
-                    tools that solve real-world problems.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn primary-btn">View My Work</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
-                </div>
-            </div>
-            <div class="hero-image reveal delay-1">
-                <div class="image-wrapper">
-                    <img src="./images/developer_profile_pic.png" alt="Dineth Sudarshana">
-                    <div class="glow"></div>
-                </div>
-            </div>
-        </section>
+    <!-- Background Glows -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
 
-        <!-- About Section -->
-        <section id="about" class="about section">
-            <div class="section-header reveal">
-                <h2>About Me</h2>
-                <div class="divider"></div>
-            </div>
-            <div class="about-content reveal delay-1">
-                <p>I am a passionate web developer focused on building modern, clean, and professional web applications.
-                    I specialize in creating practical software solutions—like POS systems, billing tools, and business
-                    websites—that help small businesses operate more efficiently.</p>
-                <p>Prioritizing user experience and smooth performance, I constantly explore new frontend and backend
-                    technologies to build fast, user-friendly applications. My ultimate goal is to become a highly
-                    skilled full-stack developer, creating powerful digital products for businesses in Sri Lanka and
-                    worldwide.</p>
-            </div>
-        </section>
+    <div class="layout">
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects section">
-            <div class="section-header reveal">
-                <h2>Featured Projects</h2>
-                <div class="divider"></div>
-            </div>
-            <div class="projects-grid">
-
-                <!-- Project 1: QuickBill POS -->
-                <div class="project-card glass-card reveal">
-                    <div class="project-img">
-                        <img src="./images/pos_dashboard_ui.png" alt="QuickBill POS System">
-                    </div>
-                    <div class="project-info">
-                        <h3>QuickBill POS System</h3>
-                        <p>A comprehensive Point of Sale system tailored for retail and online shops, featuring
-                            inventory management, premium invoice generation, and real-time analytics.</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
-                            <span class="tech-tag"><i class="fas fa-database"></i> SQLite</span>
-                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://quickbill-pos-vg6w.onrender.com" class="btn-small" target="_blank"><i
-                                    class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="https://github.com/ZeroBugZone417/QuickBill-POS" class="btn-small outline"
-                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
+        <!-- ===== LEFT SIDEBAR ===== -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-inner">
+                <div class="profile-photo-wrap">
+                    <img src="./images/developer_profile_pic.png" alt="Dineth Sudarshana" class="profile-photo">
                 </div>
 
-                <!-- Project 2: RestroMate POS -->
-                <div class="project-card glass-card reveal delay-1">
-                    <div class="project-img">
-                        <img src="./images/restromate_pos_ui.png" alt="RestroMate POS System">
-                    </div>
-                    <div class="project-info">
-                        <h3>RestroMate POS</h3>
-                        <p>A full-featured multi-tenant Restaurant POS desktop application built with Electron. Supports
-                            table management, multi-shop subscriptions, bill printing, profit tracking, and a Super
-                            Admin dashboard.</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
-                            <span class="tech-tag"><i class="fas fa-atom"></i> Electron</span>
-                            <span class="tech-tag"><i class="fas fa-database"></i> SQLite</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://drive.google.com/drive/folders/1KjFVJKGnlvVWt7Q0_6ERAErZLknn5Y7-?usp=drive_link"
-                                class="btn-small" target="_blank">
-                                <i class="fas fa-download"></i> Try Demo
-                            </a>
-                            <a href="https://github.com/ZeroBugZone417/RestroMate-POS" class="btn-small outline"
-                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
+                <div class="availability-badge">
+                    <span class="pulse-dot"></span>
+                    Available for work
                 </div>
 
-                <!-- Project 3: TikTok Downloader -->
-                <div class="project-card glass-card reveal">
-                    <div class="project-img">
-                        <img src="./images/tiktok_downloader_mockup.png" alt="TikTok Video Downloader">
+                <h2 class="sidebar-name">Dineth Sudarshana</h2>
+                <p class="sidebar-role">Web Developer & AI Creator</p>
+
+                <div class="sidebar-socials">
+                    <a href="https://github.com/ZeroBugZone417" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:dinethsudarshana417@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/94769983151" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+
+                <div class="sidebar-actions">
+                    <a href="#" class="btn btn-secondary"><i class="fas fa-download"></i> Download CV</a>
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                </div>
+
+                <!-- Sidebar Nav -->
+                <nav class="sidebar-nav">
+                    <a href="#hero" class="nav-item active"><i class="fas fa-house"></i> Home</a>
+                    <a href="#projects" class="nav-item"><i class="fas fa-briefcase"></i> Projects</a>
+                    <a href="#skills" class="nav-item"><i class="fas fa-code"></i> Skills</a>
+                    <a href="#contact" class="nav-item"><i class="fas fa-paper-plane"></i> Contact</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- ===== MAIN CONTENT ===== -->
+        <main class="main-content">
+
+            <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <a href="#" class="logo">Dineth<span>.dev</span></a>
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+            </nav>
+
+            <!-- Hero Section -->
+            <section id="hero" class="section hero-section">
+                <p class="section-eyebrow"><span>👋</span> Say Hello</p>
+                <h1 class="hero-title">
+                    I'm Dineth Sudarshana,<br>
+                    <span class="hero-title-accent"><span class="typed-text"></span></span><br>
+                    Based in Sri Lanka.
+                </h1>
+                <p class="hero-desc">I build high-performance web applications, intuitive POS systems, and AI-powered tools that solve real-world problems — helping businesses become more efficient and impactful.</p>
+
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-num">5+</span>
+                        <span class="stat-label">Projects Completed</span>
                     </div>
-                    <div class="project-info">
-                        <h3>TikTok Video Downloader</h3>
-                        <p>A simple and fast web application to download TikTok videos without watermark. Built for
-                            smooth performance and easy user experience.</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
-                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                    <div class="stat-item">
+                        <span class="stat-num">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">3+</span>
+                        <span class="stat-label">AI Tools Built</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section-label">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projects</span>
+                </div>
+                <h2 class="section-title">Featured Work</h2>
+
+                <div class="projects-grid">
+                    <div class="project-card reveal" data-tilt data-tilt-max="8" data-tilt-perspective="1000">
+                        <div class="project-card-img">
+                            <img src="./images/pos_dashboard_ui.png" alt="QuickBill POS System">
+                            <a href="https://quickbill-pos-vg6w.onrender.com" target="_blank" class="project-link-icon"><i class="fas fa-arrow-up-right-from-square"></i></a>
                         </div>
-                        <div class="project-links">
-                            <a href="https://tiktokdown-fwke.onrender.com" class="btn-small" target="_blank"><i
-                                    class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="https://github.com/ZeroBugZone417/tiktokdown" class="btn-small outline"
-                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <div class="project-card-body">
+                            <h3 class="project-title">QuickBill POS System</h3>
+                            <p class="project-meta">Node.js &bull; SQLite &bull; JavaScript</p>
+                            <p class="project-desc">Comprehensive Point of Sale system for retail and online shops with real-time analytics and premium invoice generation.</p>
+                            <div class="project-card-links">
+                                <a href="https://quickbill-pos-vg6w.onrender.com" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/ZeroBugZone417/QuickBill-POS" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Code</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Project 4: Facebook Video Downloader -->
-                <div class="project-card glass-card reveal delay-1">
-                    <div class="project-img">
-                        <img src="./images/fbdown_ui.png" alt="Facebook Video Downloader">
-                    </div>
-                    <div class="project-info">
-                        <h3>Facebook Video Downloader</h3>
-                        <p>A fast and easy web app to download Facebook videos. Designed for smooth performance and
-                            simple user experience.</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
-                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                    <div class="project-card reveal" data-tilt data-tilt-max="8" data-tilt-perspective="1000">
+                        <div class="project-card-img">
+                            <img src="./images/ecommerce_shop_ui.png" alt="Nexus MD WhatsApp Bot">
+                            <a href="https://github.com/ZeroBugZone417/nexus-md-bot" target="_blank" class="project-link-icon"><i class="fas fa-arrow-up-right-from-square"></i></a>
                         </div>
-                        <div class="project-links">
-                            <a href="https://fb-downloder-1.onrender.com" class="btn-small" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                            <a href="https://github.com/ZeroBugZone417/fb-downloder" class="btn-small outline"
-                                target="_blank">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Nexus MD WhatsApp Bot</h3>
+                            <p class="project-meta">Node.js &bull; Baileys &bull; JavaScript</p>
+                            <p class="project-desc">A multi-functional WhatsApp bot with automated broadcasting, movie downloading, and group management features.</p>
+                            <div class="project-card-links">
+                                <a href="https://github.com/ZeroBugZone417/nexus-md-bot" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-secondary btn-sm"><i class="fas fa-info-circle"></i> Details</a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="project-card reveal" data-tilt data-tilt-max="8" data-tilt-perspective="1000">
+                        <div class="project-card-img">
+                            <img src="./images/tiktok_downloader_ui.png" alt="TikTok Video Downloader">
+                            <a href="https://tiktokdown-xrqs.onrender.com" target="_blank" class="project-link-icon"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">TikTok Video Downloader</h3>
+                            <p class="project-meta">Node.js &bull; JavaScript</p>
+                            <p class="project-desc">Fast web app to download TikTok videos without watermark. Smooth performance and simple UX.</p>
+                            <div class="project-card-links">
+                                <a href="https://tiktokdown-xrqs.onrender.com" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/ZeroBugZone417/tiktokdown" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal" data-tilt data-tilt-max="8" data-tilt-perspective="1000">
+                        <div class="project-card-img">
+                            <img src="./images/photoshop_panel_ui.png" alt="Facebook Video Downloader">
+                            <a href="https://fb-downloder-txeu.onrender.com/" target="_blank" class="project-link-icon"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Facebook Video Downloader</h3>
+                            <p class="project-meta">Node.js &bull; JavaScript</p>
+                            <p class="project-desc">Fast and easy web app to download Facebook videos. Designed for smooth performance and simple UX.</p>
+                            <div class="project-card-links">
+                                <a href="https://fb-downloder-txeu.onrender.com/" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/ZeroBugZone417/fb-downloder" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal" data-tilt data-tilt-max="8" data-tilt-perspective="1000">
+                        <div class="project-card-img">
+                            <img src="./images/mr_photo_ui.png" alt="MR Photo Studio">
+                            <a href="https://mrphoto.onrender.com" target="_blank" class="project-link-icon"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">MR Photo Studio</h3>
+                            <p class="project-meta">Next.js 14 &bull; MongoDB &bull; Tailwind</p>
+                            <p class="project-desc">Premium studio platform for photo restoration & printing. Features a glassmorphic UI and admin dashboard.</p>
+                            <div class="project-card-links">
+                                <a href="https://mrphoto.onrender.com" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/ZeroBugZone417/mr-photo" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </section>
 
-            </div>
-        </section>
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="section-label">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </div>
+                <h2 class="section-title">My Arsenal</h2>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills section">
-            <div class="section-header reveal">
-                <h2>My Skills</h2>
-                <div class="divider"></div>
-            </div>
-            <div class="skills-container reveal delay-1">
-                <div class="skill-category glass-card">
-                    <h3><i class="fas fa-code"></i> Frontend</h3>
-                    <div class="skill-pills">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                        <span>React</span>
-                        <span>Tailwind CSS</span>
-                        <span>Framer Motion</span>
+                <div class="skills-grid">
+                    <div class="skill-card reveal" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.1">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <div class="skill-info">
+                            <h4>JavaScript</h4>
+                            <span>Frontend & Backend</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.1">
+                        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                        <div class="skill-info">
+                            <h4>Node.js</h4>
+                            <span>Backend Runtime</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.1">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <div class="skill-info">
+                            <h4>Next.js 14</h4>
+                            <span>Full-Stack Framework</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.1">
+                        <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                        <div class="skill-info">
+                            <h4>Figma</h4>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.1">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <div class="skill-info">
+                            <h4>AI Integration</h4>
+                            <span>Prompt Engineering</span>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-category glass-card">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skill-pills">
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>MongoDB</span>
-                        <span>Firebase</span>
-                    </div>
-                </div>
-                <div class="skill-category glass-card">
-                    <h3><i class="fas fa-tools"></i> Tools</h3>
-                    <div class="skill-pills">
-                        <span>Git & GitHub</span>
-                        <span>VS Code</span>
-                        <span>Figma</span>
-                        <span>Photoshop</span>
-                    </div>
-                </div>
-                <div class="skill-category glass-card">
-                    <h3><i class="fas fa-brain"></i> AI Skills</h3>
-                    <div class="skill-pills">
-                        <span>Prompt Engineering</span>
-                        <span>OpenAI API</span>
-                        <span>AI Integration</span>
-                        <span>Midjourney</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
-            <div class="section-header reveal">
-                <h2>Get In Touch</h2>
-                <div class="divider"></div>
-            </div>
-            <div class="contact-wrapper">
-                <div class="contact-info glass-card reveal">
-                    <h3>Let's talk about your project</h3>
-                    <p>Whether you have a question, a project idea, or just want to say hi, feel free to drop a message.
-                        I'll get back to you as soon as possible.</p>
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-label">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Contact</span>
+                </div>
+                <h2 class="section-title">Let's Get in Touch!</h2>
 
-                    <div class="contact-methods">
-                        <a href="mailto:dinethsudarshana417@gmail.com" class="contact-method">
-                            <i class="fas fa-envelope"></i>
+                <div class="contact-layout">
+                    <div class="contact-info-col">
+                        <a href="https://wa.me/94769983151" target="_blank" class="contact-info-card reveal">
+                            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
                             <div>
-                                <h4>Email Me</h4>
-                                <span>dinethsudarshana417@gmail.com</span>
+                                <span class="contact-info-label">WhatsApp</span>
+                                <span class="contact-info-value">+94 769 983 151</span>
                             </div>
                         </a>
-                        <a href="https://wa.me/94769983151" class="contact-method" target="_blank">
-                            <i class="fab fa-whatsapp"></i>
+                        <a href="mailto:dinethsudarshana417@gmail.com" class="contact-info-card reveal">
+                            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
                             <div>
-                                <h4>WhatsApp</h4>
-                                <span>Message Me Directly</span>
+                                <span class="contact-info-label">Email</span>
+                                <span class="contact-info-value">dinethsudarshana417@gmail.com</span>
                             </div>
                         </a>
+                        <div class="contact-info-card reveal">
+                            <div class="contact-info-icon"><i class="fas fa-location-dot"></i></div>
+                            <div>
+                                <span class="contact-info-label">Location</span>
+                                <span class="contact-info-value">Sri Lanka</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="social-links">
-                        <a href="https://github.com/ZeroBugZone417" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
+                    <form class="contact-form reveal" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
                 </div>
+            </section>
 
-                <form class="contact-form glass-card reveal delay-1" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" required placeholder="John Doe">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required placeholder="john@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" rows="5" required placeholder="Tell me about your project..."></textarea>
-                    </div>
-                    <button type="submit" class="btn primary-btn submit-btn">Send Message <i
-                            class="fas fa-paper-plane"></i></button>
-                </form>
-            </div>
-        </section>
-    </main>
+            <footer>
+                <p>&copy; 2026 Dineth Sudarshana. All rights reserved.</p>
+            </footer>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 Dineth Sudarshana. All rights reserved.</p>
-        </div>
-    </footer>
+        </main>
+    </div>
 
+    <!-- Mobile Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
