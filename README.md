@@ -1,4 +1,4 @@
-# Dineth Sudarshana - Personal Portfolio
+# GridX Dev Studio - Personal Portfolio
 
 A modern, responsive, and dark-themed personal portfolio website designed for a professional Web Developer. The website features a sleek glassmorphism aesthetic, smooth scroll-reveal animations, and a fully mobile-responsive layout.
 
@@ -43,7 +43,7 @@ Since this is a fully static website, no complex backend or build tools are requ
 
 ## 👨‍💻 Author
 
-**Dineth Sudarshana**
+**GridX Dev Studio**
 - Passionate Full-Stack Web Developer
 - Specialized in POS Systems, E-commerce tools, and clean digital solutions.
 
